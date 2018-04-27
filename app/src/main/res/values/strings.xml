@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Congo Music</string>
+    <string name="admob_interstitial_id">ca-app-pub-9405290514597393/4139443663</string>
+    <string name="banner_ad_unit_id">ca-app-pub-9405290514597393/2662710463</string>
+</resources>

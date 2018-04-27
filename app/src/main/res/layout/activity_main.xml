@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/chansons_patriotiques"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chansons Patriotiques" />
+
+    <Button
+        android:id="@+id/koffi_olomide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Koffi Olomide" />
+
+    <Button
+        android:id="@+id/papa_wemba"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Papa Wemba" />
+
+    <Button
+        android:id="@+id/fally_ipupa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fally Ipupa" />
+
+    <Button
+        android:id="@+id/jb_mpiana"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JB Mpiana" />
+
+    <Button
+        android:id="@+id/franco_luambo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Franco Luambo" />
+
+    <Button
+        android:id="@+id/pepe_kale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pepe Kale" />
+    <Button
+        android:id="@+id/selection_musique_congolaise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selection Musique Congolaise" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-9405290514597393/2662710463">
+
+    </com.google.android.gms.ads.AdView>
+
+</LinearLayout>

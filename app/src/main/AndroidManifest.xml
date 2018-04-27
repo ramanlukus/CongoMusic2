@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.africanetlab.congomusic">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".MainActivity$MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".MainActivity$FirebaseIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".ChansonsPatriotiquesActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".KoffiOlomideActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".PapaWembaActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".FallyIpupaActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".JbMpianaActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".FrancoLuamboActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".PepeKaleActivity" />
+        <activity android:name=".SelectionMusiqueCongolaiseActivity"></activity>
+    </application>
+
+</manifest>

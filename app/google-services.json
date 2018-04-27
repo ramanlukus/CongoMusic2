@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "93120805368",
+    "firebase_url": "https://congomusic-ca2f2.firebaseio.com",
+    "project_id": "congomusic-ca2f2",
+    "storage_bucket": "congomusic-ca2f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:93120805368:android:d30ebb58b2898408",
+        "android_client_info": {
+          "package_name": "com.africanetlab.congomusic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "93120805368-5ai5b3a2gkc645nqr2mc37p93mdbck8b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.africanetlab.congomusic",
+            "certificate_hash": "15fc35d6c0ff9bcd8541ccceb485446c3427ab7a"
+          }
+        },
+        {
+          "client_id": "93120805368-f9dspcqposl19bsdigj95euss01vbh46.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAd_GZoxXTTDCUFlrhK_eY2Q1iZTfCvwYE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "93120805368-f9dspcqposl19bsdigj95euss01vbh46.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
